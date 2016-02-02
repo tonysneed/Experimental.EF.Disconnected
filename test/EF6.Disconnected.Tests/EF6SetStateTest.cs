@@ -14,7 +14,7 @@ namespace EF6.Disconnected.Tests
         }
 
         [Fact]
-        public void Set_state_should_mark_single_entity()
+        public void Set_state_should_not_mark_single_entity()
         {
             // Arrange
             var detail = new OrderDetail();
